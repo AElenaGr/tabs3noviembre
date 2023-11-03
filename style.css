@@ -1,0 +1,40 @@
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0.5em;
+
+}
+
+.tab-content .tab-pane {
+  display: none;
+  background-color: rgb(129, 255, 177);
+}
+.tab-content .tab-pane:first-child {
+  display: block;
+  background-color: rgb(194, 129, 255);
+
+}
+
+
+.tab-list li{
+  display: inline-block;
+  border: solid 1px black;
+  padding: 6px;
+  border-radius: 12px 12px 0 0;
+}
+
+.tab-list li a{
+text-decoration: none;
+}
+
+
+/* .tab-content .tab-pane:nth-child(n+1) {
+  display: block;
+  background-color: rgb(129, 255, 177);
+}  */
